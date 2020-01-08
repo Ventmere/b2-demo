@@ -1,0 +1,4696 @@
+/*******************************************************************************
+ BEGIN Global CSS
+*******************************************************************************/
+
+/**/
+html,
+body {
+  height: 100%;
+}
+
+
+/*******************************************************************************
+ END Global CSS
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Layout#2 layout - low level user
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-layout-2 img#logo {
+  height: 30px;
+}
+
+.vtm-ns-layout-2 .logo a {
+  font-weight: 400;
+}
+
+.vtm-ns-layout-2 .profile-info {
+  margin: 15px 0 10px 10px;
+  font-size: 16px;
+}
+
+.vtm-ns-layout-2 #sidebar .profile-menu > a {
+  background: none;
+  height: 46px;
+}
+
+.vtm-ns-layout-2 #sidebar .profile-menu > a .profile-info {
+  background: none;
+  color: #4C4C4C;
+}
+
+.vtm-ns-layout-2 .profile-icon {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #00bcd4;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+  padding: 3px 0 0 3px;
+  overflow: hidden;
+  margin-right: 3px;
+}
+
+/*******************************************************************************
+ END Layout#2 layout - low level user
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Layout#3 layout - admin
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-layout-3 img#logo {
+  height: 30px;
+}
+
+.vtm-ns-layout-3 .logo a {
+  font-weight: 400;
+}
+
+.vtm-ns-layout-3 .profile-info {
+  margin: 15px 0 10px 10px;
+  font-size: 16px;
+}
+
+.vtm-ns-layout-3 #sidebar .profile-menu > a {
+  background: none;
+  height: 46px;
+}
+
+.vtm-ns-layout-3 #sidebar .profile-menu > a .profile-info {
+  background: none;
+  color: #4C4C4C;
+}
+
+.vtm-ns-layout-3 .profile-icon {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #00bcd4;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+  padding: 3px 0 0 3px;
+  overflow: hidden;
+  margin-right: 3px;
+}
+
+/*******************************************************************************
+ END Layout#3 layout - admin
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Layout#4 printables
+*******************************************************************************/
+
+/**/
+
+/* reset */
+
+.vtm-ns-layout-4 * {
+  border: 0;
+  box-sizing: content-box;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+/* content editable 
+
+*[contenteditable] { border-radius: 0.25em; min-width: 1em; outline: 0; }
+
+*[contenteditable] { cursor: pointer; }
+
+*[contenteditable]:hover, *[contenteditable]:focus, td:hover *[contenteditable], td:focus *[contenteditable], img.hover { background: #DEF; box-shadow: 0 0 1em 0.5em #DEF; }
+
+span[contenteditable] { display: inline-block; }
+
+/* heading */
+
+.vtm-ns-layout-4 h1 {
+  font: bold 100% sans-serif;
+  letter-spacing: 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.vtm-ns-layout-4 h3 {
+  font: bold 80% sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* table */
+
+.vtm-ns-layout-4 table {
+  font-size: 75%;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.vtm-ns-layout-4 table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+.vtm-ns-layout-4 th,
+.vtm-ns-layout-4 td {
+  border-width: 1px;
+  padding: 0.5em;
+  position: relative;
+  text-align: left;
+}
+
+.vtm-ns-layout-4 th,
+.vtm-ns-layout-4 td {
+  border-radius: 0.25em;
+  border-style: solid;
+}
+
+.vtm-ns-layout-4 th {
+  background: #EEE;
+  border-color: #BBB;
+}
+
+.vtm-ns-layout-4 td {
+  border-color: #DDD;
+}
+
+/* page */
+
+.vtm-ns-layout-4 html {
+  font: 16px/1 'Open Sans', sans-serif;
+  overflow: auto;
+  padding: 0.4in;
+}
+
+.vtm-ns-layout-4 html {
+  background: #999;
+  cursor: default;
+}
+
+body.vtm-ns-layout-4 {
+  box-sizing: border-box;
+  height: 11in;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0.4in;
+  width: 8.5in;
+}
+
+body.vtm-ns-layout-4 {
+  background: #FFF;
+  border-radius: 1px;
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+}
+
+/* header */
+
+.vtm-ns-layout-4 header {
+  margin: 0 0 3em;
+}
+
+.vtm-ns-layout-4 header:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.vtm-ns-layout-4 header h1 {
+  background: #000;
+  border-radius: 0.25em;
+  color: #FFF;
+  margin: 0 0 1em;
+  padding: 0.5em 0;
+}
+
+.vtm-ns-layout-4 header address {
+  float: left;
+  font-size: 75%;
+  font-style: normal;
+  line-height: 1.25;
+  margin: 0 1em 1em 50px;
+}
+
+.vtm-ns-layout-4 header address p {
+  margin: 0 0 0.25em;
+}
+
+.vtm-ns-layout-4 header span,
+.vtm-ns-layout-4 header img {
+  display: block;
+  float: left;
+}
+
+.vtm-ns-layout-4 header span {
+  margin: 0 0 1em 1em;
+  max-height: 25%;
+  max-width: 60%;
+  position: relative;
+}
+
+.vtm-ns-layout-4 header img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.vtm-ns-layout-4 header input {
+  cursor: pointer;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.vtm-ns-layout-4 header .header-right {
+  float: right;
+  font-style: normal;
+  line-height: 1.25;
+  margin: 0 1em 1em 0;
+}
+
+/* article */
+
+.vtm-ns-layout-4 article,
+.vtm-ns-layout-4 article address,
+.vtm-ns-layout-4 table.meta,
+.vtm-ns-layout-4 table.inventory {
+  margin: 0 0 3em;
+}
+
+.vtm-ns-layout-4 article:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.vtm-ns-layout-4 article h1 {
+  clip: rect(0 0 0 0);
+  position: absolute;
+}
+
+.vtm-ns-layout-4 article address p {
+  font-size: 14px;
+}
+
+.vtm-ns-layout-4 article address {
+  float: left;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+/* table meta & balance */
+
+.vtm-ns-layout-4 table.meta,
+.vtm-ns-layout-4 table.balance {
+  float: right;
+  width: 36%;
+}
+
+.vtm-ns-layout-4 table.meta:after,
+.vtm-ns-layout-4 table.balance:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* table meta */
+
+.vtm-ns-layout-4 table.meta th {
+  width: 40%;
+}
+
+.vtm-ns-layout-4 table.meta td {
+  width: 60%;
+}
+
+/* table items */
+
+.vtm-ns-layout-4 table.inventory {
+  clear: both;
+  width: 100%;
+}
+
+.vtm-ns-layout-4 table.inventory th {
+  font-weight: bold;
+  text-align: center;
+}
+
+.vtm-ns-layout-4 table.inventory td:nth-child(1) {
+  width: 26%;
+}
+
+.vtm-ns-layout-4 table.inventory td:nth-child(2) {
+  width: 38%;
+}
+
+.vtm-ns-layout-4 table.inventory td:nth-child(3) {
+  text-align: right;
+  width: 12%;
+}
+
+.vtm-ns-layout-4 table.inventory td:nth-child(4) {
+  text-align: right;
+  width: 12%;
+}
+
+.vtm-ns-layout-4 table.inventory td:nth-child(5) {
+  text-align: right;
+  width: 12%;
+}
+
+/* table balance */
+
+.vtm-ns-layout-4 table.balance th,
+.vtm-ns-layout-4 table.balance td {
+  width: 50%;
+}
+
+.vtm-ns-layout-4 table.balance td {
+  text-align: right;
+}
+
+/* aside */
+
+.vtm-ns-layout-4 aside h1 {
+  border: none;
+  border-width: 0 0 1px;
+  margin: 0 0 1em;
+}
+
+.vtm-ns-layout-4 aside h1 {
+  border-color: #999;
+  border-bottom-style: solid;
+}
+
+/* javascript 
+
+.add, .cut
+{
+	border-width: 1px;
+	display: block;
+	font-size: .8rem;
+	padding: 0.25em 0.5em;	
+	float: left;
+	text-align: center;
+	width: 0.6em;
+}
+
+.add, .cut
+{
+	background: #9AF;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	background-image: -moz-linear-gradient(#00ADEE 5%, #0078A5 100%);
+	background-image: -webkit-linear-gradient(#00ADEE 5%, #0078A5 100%);
+	border-radius: 0.5em;
+	border-color: #0076A3;
+	color: #FFF;
+	cursor: pointer;
+	font-weight: bold;
+	text-shadow: 0 -1px 2px rgba(0,0,0,0.333);
+}
+
+.add { margin: -2.5em 0 0; }
+
+.add:hover { background: #00ADEE; }
+
+.cut { opacity: 0; position: absolute; top: 0; left: -1.5em; }
+.cut { -webkit-transition: opacity 100ms ease-in; }
+
+tr:hover .cut { opacity: 1; }
+*/
+
+@media print {
+  .vtm-ns-layout-4 * {
+    -webkit-print-color-adjust: exact;
+  }
+
+  .vtm-ns-layout-4 html {
+    background: none;
+    padding: 0;
+  }
+
+  body.vtm-ns-layout-4 {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .vtm-ns-layout-4 span:empty {
+    display: none;
+  }
+
+  .vtm-ns-layout-4 .add,
+  .vtm-ns-layout-4 .cut {
+    display: none;
+  }
+}
+
+@page {
+  margin: 0;
+}
+
+/*******************************************************************************
+ END Layout#4 printables
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#2 dashboard - low level user
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-2 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-2 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-2 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-2 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-2 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-2 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-2 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-2 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-2 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-2 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-2 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-2 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-2 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-2 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+/*******************************************************************************
+ END Page#2 dashboard - low level user
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#3 dashboard - admin
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-3 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-3 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-3 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-3 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-3 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-3 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-3 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-3 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-3 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-3 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-3 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-3 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-3 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-3 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+/*******************************************************************************
+ END Page#3 dashboard - admin
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#4 calendar - admin
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-4 .calendar-type span {
+  width: 23px;
+  height: 23px;
+}
+
+.vtm-ns-page-4 .calendar-type span.event-type {
+  font-size: 20px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  white-space: nowrap;
+  cursor: initial;
+}
+
+/*******************************************************************************
+ END Page#4 calendar - admin
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#5 clients list - low
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-5 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-5 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-5 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-5 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-5 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-5 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-5 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-5 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-5 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-5 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-5 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-5 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-5 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-5 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-5 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-5 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-5 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-5 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#5 clients list - low
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#6 clients list - admin
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-6 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-6 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-6 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-6 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-6 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-6 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-6 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-6 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-6 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-6 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-6 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-6 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-6 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-6 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-6 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-6 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-6 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-6 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#6 clients list - admin
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#7 add client
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-7 .row {
+  margin-bottom: 20px;
+}
+
+.vtm-ns-page-7 .hvac-card {
+  background-color: #edecec;
+  border: none;
+  box-shadow: none;
+}
+
+.vtm-ns-page-7 .hvac-card .equipment-card {
+  background-color: white;
+  padding: 10px;
+}
+
+.vtm-ns-page-7 .hvac-card .equipment-card div {
+  margin-bottom: 2px;
+}
+
+.vtm-ns-page-7 .hvac-card .equipment-card p {
+  height: 30px;
+}
+
+.vtm-ns-page-7 .hvac-card .equipment-card h5 {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.vtm-ns-page-7 .hvac-card .equipment-card .input-group-addon {
+  vertical-align: middle;
+}
+
+/*******************************************************************************
+ END Page#7 add client
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#9 view client
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-9 .title-icon {
+  font-size: 25px;
+  position: absolute;
+}
+
+.vtm-ns-page-9 .title-address {
+  padding-left: 34px;
+}
+
+@media (max-width: 767px) {
+  .vtm-ns-page-9 #profile-main .pm-overview {
+    width: 100%;
+    background: #efefef;
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+.vtm-ns-page-9 .client-view-title {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-9 .f-16 {
+  font-size: 16px;
+}
+
+.vtm-ns-page-9 .misc-buttons {
+  margin-top: 30px;
+}
+
+.vtm-ns-page-9 .misc-buttons button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  width: 200px;
+  text-align: left;
+}
+
+/*******************************************************************************
+ END Page#9 view client
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#11 supplier list
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-11 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-11 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-11 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-11 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-11 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-11 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-11 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-11 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-11 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-11 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-11 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-11 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-11 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-11 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-11 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-11 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-11 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-11 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#11 supplier list
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#12 inventory list
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-12 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-12 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-12 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-12 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-12 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-12 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-12 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-12 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-12 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-12 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-12 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-12 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-12 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-12 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-12 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-12 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-12 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-12 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#12 inventory list
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#14 contractor list
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-14 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-14 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-14 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-14 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-14 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-14 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-14 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-14 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-14 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-14 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-14 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-14 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-14 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-14 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-14 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-14 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-14 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-14 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#14 contractor list
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#15 view supplier
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-15 .title-icon {
+  font-size: 25px;
+  position: absolute;
+}
+
+.vtm-ns-page-15 .title-address {
+  padding-left: 34px;
+}
+
+@media (max-width: 767px) {
+  .vtm-ns-page-15 #profile-main .pm-overview {
+    width: 100%;
+    background: #efefef;
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+.vtm-ns-page-15 .client-view-title {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-15 .f-16 {
+  font-size: 16px;
+}
+
+.vtm-ns-page-15 .view-all {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-15 .view-all a,
+.vtm-ns-page-15 .view-all a:link,
+.vtm-ns-page-15 .view-all a:visited,
+.vtm-ns-page-15 .view-all a:hover {
+  color: inherit;
+}
+
+/*******************************************************************************
+ END Page#15 view supplier
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#16 warehouse operation
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-16 .title-icon {
+  font-size: 25px;
+  position: absolute;
+}
+
+.vtm-ns-page-16 .title-address {
+  padding-left: 34px;
+}
+
+@media (max-width: 767px) {
+  .vtm-ns-page-16 #profile-main .pm-overview {
+    width: 100%;
+    background: #efefef;
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+.vtm-ns-page-16 .client-view-title {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-16 .f-16 {
+  font-size: 16px;
+}
+
+.vtm-ns-page-16 .view-all {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-16 .view-all a,
+.vtm-ns-page-16 .view-all a:link,
+.vtm-ns-page-16 .view-all a:visited,
+.vtm-ns-page-16 .view-all a:hover {
+  color: inherit;
+}
+
+/*******************************************************************************
+ END Page#16 warehouse operation
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#17 documents
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-17 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-17 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-17 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-17 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-17 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-17 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-17 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-17 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-17 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-17 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-17 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-17 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-17 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-17 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-17 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-17 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-17 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-17 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#17 documents
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#18 receive fund
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-18 .title-icon {
+  font-size: 25px;
+  position: absolute;
+}
+
+.vtm-ns-page-18 .title-address {
+  padding-left: 34px;
+}
+
+@media (max-width: 767px) {
+  .vtm-ns-page-18 #profile-main .pm-overview {
+    width: 100%;
+    background: #efefef;
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+.vtm-ns-page-18 .client-view-title {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-18 .f-16 {
+  font-size: 16px;
+}
+
+.vtm-ns-page-18 .view-all {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-18 .view-all a,
+.vtm-ns-page-18 .view-all a:link,
+.vtm-ns-page-18 .view-all a:visited,
+.vtm-ns-page-18 .view-all a:hover {
+  color: inherit;
+}
+
+/*******************************************************************************
+ END Page#18 receive fund
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#19 add expense admin only
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-19 .title-icon {
+  font-size: 25px;
+  position: absolute;
+}
+
+.vtm-ns-page-19 .title-address {
+  padding-left: 34px;
+}
+
+@media (max-width: 767px) {
+  .vtm-ns-page-19 #profile-main .pm-overview {
+    width: 100%;
+    background: #efefef;
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+.vtm-ns-page-19 .client-view-title {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-19 .f-16 {
+  font-size: 16px;
+}
+
+.vtm-ns-page-19 .view-all {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-19 .view-all a,
+.vtm-ns-page-19 .view-all a:link,
+.vtm-ns-page-19 .view-all a:visited,
+.vtm-ns-page-19 .view-all a:hover {
+  color: inherit;
+}
+
+/*******************************************************************************
+ END Page#19 add expense admin only
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#20 financial cash flow
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-20 .cashflow-table tr td:first-of-type {
+  font-weight: 600;
+}
+
+.vtm-ns-page-20 .cashflow-table .subtotal {
+  font-weight: 600;
+}
+
+/*******************************************************************************
+ END Page#20 financial cash flow
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#21 financial profit loss
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-21 .cashflow-table tr td:first-of-type {
+  font-weight: 600;
+}
+
+.vtm-ns-page-21 .cashflow-table .subtotal {
+  font-weight: 600;
+}
+
+/*******************************************************************************
+ END Page#21 financial profit loss
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#22 accounting pay commission
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-22 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-22 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-22 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-22 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-22 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-22 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-22 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-22 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-22 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-22 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-22 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-22 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-22 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-22 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-22 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-22 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-22 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-22 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#22 accounting pay commission
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#23 accounting pay suppliers
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-23 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-23 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-23 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-23 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-23 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-23 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-23 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-23 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-23 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-23 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-23 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-23 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-23 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-23 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-23 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-23 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-23 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-23 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#23 accounting pay suppliers
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#25 permission settings
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-25 .cashflow-table tr td:first-of-type {
+  font-weight: 400;
+  padding-left: 50px;
+}
+
+.vtm-ns-page-25 .cashflow-table tr td.group-title {
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+/*******************************************************************************
+ END Page#25 permission settings
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#26 users list
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-26 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-26 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-26 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-26 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-26 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-26 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-26 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-26 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-26 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-26 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-26 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-26 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-26 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-26 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-26 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-26 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-26 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-26 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#26 users list
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#27 view team
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-27 .m-l--10 {
+  margin-left: -10px;
+}
+
+.vtm-ns-page-27 .m-l--18 {
+  margin-left: -18px;
+}
+
+.vtm-ns-page-27 .form-group {
+  display: inline-block;
+}
+
+/*******************************************************************************
+ END Page#27 view team
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#28 add client
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-28 .row {
+  margin-bottom: 14px;
+}
+
+.vtm-ns-page-28 .hvac-card {
+  background-color: #edecec;
+  border: none;
+  box-shadow: none;
+}
+
+.vtm-ns-page-28 .hvac-card .equipment-card {
+  background-color: white;
+  padding: 10px;
+}
+
+.vtm-ns-page-28 .hvac-card .equipment-card div {
+  margin-bottom: 2px;
+}
+
+.vtm-ns-page-28 .hvac-card .equipment-card p {
+  height: 30px;
+}
+
+.vtm-ns-page-28 .hvac-card .equipment-card h5 {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.vtm-ns-page-28 .hvac-card .equipment-card .input-group-addon {
+  vertical-align: middle;
+}
+
+.vtm-ns-page-28 .payment-method a {
+  background: none;
+  margin-top: 20px;
+}
+
+/*******************************************************************************
+ END Page#28 add client
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#29 deposit
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-29 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-29 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-29 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-29 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-29 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-29 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-29 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-29 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-29 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-29 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-29 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-29 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-29 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-29 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-29 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-29 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-29 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-29 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#29 deposit
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#30 set commission by model
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-30 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-30 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-30 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-30 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-30 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-30 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-30 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-30 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-30 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-30 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-30 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-30 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-30 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-30 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-30 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-30 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-30 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-30 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#30 set commission by model
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#31 set installation by model
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-31 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-31 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-31 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-31 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-31 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-31 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-31 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-31 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-31 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-31 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-31 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-31 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-31 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-31 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-31 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-31 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-31 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-31 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#31 set installation by model
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#32 set commission by salesperson
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-32 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-32 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-32 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-32 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-32 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-32 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-32 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-32 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-32 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-32 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-32 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-32 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-32 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-32 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-32 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-32 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-32 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-32 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#32 set commission by salesperson
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#34 set installation rates by installer
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-34 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-34 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-34 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-34 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-34 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-34 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-34 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-34 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-34 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-34 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-34 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-34 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-34 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-34 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-34 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-34 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-34 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-34 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#34 set installation rates by installer
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#35 accounting payroll
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-35 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-35 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-35 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-35 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-35 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-35 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-35 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-35 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-35 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-35 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-35 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-35 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-35 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-35 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-35 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-35 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-35 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-35 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#35 accounting payroll
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#36 add user
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-36 .row {
+  margin-bottom: 20px;
+}
+
+.vtm-ns-page-36 .hvac-card {
+  background-color: #edecec;
+  border: none;
+  box-shadow: none;
+}
+
+.vtm-ns-page-36 .hvac-card .equipment-card {
+  background-color: white;
+  padding: 10px;
+}
+
+.vtm-ns-page-36 .hvac-card .equipment-card div {
+  margin-bottom: 2px;
+}
+
+.vtm-ns-page-36 .hvac-card .equipment-card p {
+  height: 30px;
+}
+
+.vtm-ns-page-36 .hvac-card .equipment-card h5 {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.vtm-ns-page-36 .hvac-card .equipment-card .input-group-addon {
+  vertical-align: middle;
+}
+
+/*******************************************************************************
+ END Page#36 add user
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#37 add client - search first
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-37 .row {
+  margin-bottom: 14px;
+}
+
+.vtm-ns-page-37 .hvac-card {
+  border: none;
+  box-shadow: none;
+}
+
+.vtm-ns-page-37 .hvac-card .equipment-card {
+  background-color: white;
+  padding: 10px;
+}
+
+.vtm-ns-page-37 .hvac-card .equipment-card div {
+  margin-bottom: 2px;
+}
+
+.vtm-ns-page-37 .hvac-card .equipment-card p {
+  height: 30px;
+}
+
+.vtm-ns-page-37 .hvac-card .equipment-card h5 {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.vtm-ns-page-37 .hvac-card .equipment-card .input-group-addon {
+  vertical-align: middle;
+}
+
+.vtm-ns-page-37 .payment-method a {
+  background: none;
+  margin-top: 20px;
+}
+
+.vtm-ns-page-37 .f-20 {
+  font-size: 20px;
+}
+
+.vtm-ns-page-37 table.house-table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.vtm-ns-page-37 table.house-table tr {
+  height: 40px;
+}
+
+.vtm-ns-page-37 table.house-table td {
+  width: 40px;
+  border: 1px solid #eee;
+}
+
+.vtm-ns-page-37 .inline {
+  display: inline-block;
+}
+
+.vtm-ns-page-37 .w-20 {
+  width: 20%;
+}
+
+.vtm-ns-page-37 .middle {
+  vertical-align: middle;
+}
+
+/*******************************************************************************
+ END Page#37 add client - search first
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#39 service completion slip
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-39 .sign {
+  color: #ccc;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.vtm-ns-page-39 header .meta span {
+  max-width: 100%;
+}
+
+.vtm-ns-page-39 table.meta {
+  margin-bottom: 10px;
+}
+
+.vtm-ns-page-39 header {
+  margin-bottom: 10px;
+}
+
+.vtm-ns-page-39 .float-div {
+  margin-left: 40px;
+  float: left;
+}
+
+.vtm-ns-page-39 article address {
+  margin-bottom: 1.3em;
+}
+
+.vtm-ns-page-39 .f-12 {
+  font-size: 12px;
+}
+
+.vtm-ns-page-39 .w-70 {
+  width: 70%;
+}
+
+.vtm-ns-page-39 .w-30 {
+  width: 30%;
+}
+
+.vtm-ns-page-39 .w-100 {
+  width: 100%;
+}
+
+.vtm-ns-page-39 .w-50 {
+  width: 50%;
+}
+
+.vtm-ns-page-39 .w-40 {
+  width: 40%;
+}
+
+.vtm-ns-page-39 .w-60 {
+  width: 60%;
+}
+
+.vtm-ns-page-39 .w-33 {
+  width: 33.333333333%;
+}
+
+.vtm-ns-page-39 .float-card {
+  float: left;
+}
+
+.vtm-ns-page-39 .equipment-card {
+  font-size: 75%;
+  margin-bottom: 5px;
+  border: 1px solid #dedede;
+  overflow: hidden;
+  width: 100%;
+}
+
+.vtm-ns-page-39 .equipment-card .equipment-head {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 3px 4px;
+  background-color: #dedede;
+}
+
+.vtm-ns-page-39 .equipment-card div {
+  float: left;
+  padding: 2px 0;
+}
+
+.vtm-ns-page-39 .equipment-card div span {
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+.vtm-ns-page-39 .checklist {
+  font-size: 10px;
+}
+
+.vtm-ns-page-39 .checklist ul li {
+  margin-left: 25px;
+}
+
+.vtm-ns-page-39 .checklist ul li:before {
+  content: "\f1f9";
+  margin-right: 5px;
+}
+
+.vtm-ns-page-39 .checklist ul li:first-of-type {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.vtm-ns-page-39 .f-10 {
+  font-size: 10px;
+}
+
+.vtm-ns-page-39 .inline {
+  display: inline-block;
+}
+
+/*******************************************************************************
+ END Page#39 service completion slip
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#40 customer quotation printable
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-40 .memo {
+  float: left;
+  width: 50%;
+  padding-left: 14px;
+  font-size: 10px;
+}
+
+.vtm-ns-page-40 table.house-table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.vtm-ns-page-40 table.house-table td {
+  border: 1px solid #eee;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.vtm-ns-page-40 table.house-table td.selected {
+  background-color: #ccc;
+}
+
+.vtm-ns-page-40 .info {
+  position: relative;
+}
+
+.vtm-ns-page-40 .info label,
+.vtm-ns-page-40 .info p {
+  padding-top: 5px;
+  font-size: 75%;
+}
+
+.vtm-ns-page-40 .info label {
+  width: 50%;
+  float: left;
+}
+
+.vtm-ns-page-40 .info p {
+  width: 50%;
+  float: left;
+  padding-left: 10%;
+  box-sizing: border-box;
+}
+
+/*******************************************************************************
+ END Page#40 customer quotation printable
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#42 view product
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-42 .title-icon {
+  font-size: 25px;
+  position: absolute;
+}
+
+.vtm-ns-page-42 .title-address {
+  padding-left: 34px;
+}
+
+@media (max-width: 767px) {
+  .vtm-ns-page-42 #profile-main .pm-overview {
+    width: 100%;
+    background: #efefef;
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+.vtm-ns-page-42 .client-view-title {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-42 .f-16 {
+  font-size: 16px;
+}
+
+.vtm-ns-page-42 .view-all {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-42 .view-all a,
+.vtm-ns-page-42 .view-all a:link,
+.vtm-ns-page-42 .view-all a:visited,
+.vtm-ns-page-42 .view-all a:hover {
+  color: inherit;
+}
+
+.vtm-ns-page-42 .product-image {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+/*******************************************************************************
+ END Page#42 view product
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#43 view advertising channel
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-43 .title-icon {
+  font-size: 25px;
+  position: absolute;
+}
+
+.vtm-ns-page-43 .title-address {
+  padding-left: 34px;
+}
+
+@media (max-width: 767px) {
+  .vtm-ns-page-43 #profile-main .pm-overview {
+    width: 100%;
+    background: #efefef;
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+.vtm-ns-page-43 .client-view-title {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-43 .f-16 {
+  font-size: 16px;
+}
+
+.vtm-ns-page-43 .view-all {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-43 .view-all a,
+.vtm-ns-page-43 .view-all a:link,
+.vtm-ns-page-43 .view-all a:visited,
+.vtm-ns-page-43 .view-all a:hover {
+  color: inherit;
+}
+
+/*******************************************************************************
+ END Page#43 view advertising channel
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#44 parts list
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-44 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-44 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-44 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-44 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-44 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-44 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-44 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-44 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-44 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-44 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-44 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-44 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-44 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-44 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-44 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-44 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-44 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-44 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#44 parts list
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#45 receive fund from warranty refund
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-45 .title-icon {
+  font-size: 25px;
+  position: absolute;
+}
+
+.vtm-ns-page-45 .title-address {
+  padding-left: 34px;
+}
+
+@media (max-width: 767px) {
+  .vtm-ns-page-45 #profile-main .pm-overview {
+    width: 100%;
+    background: #efefef;
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+.vtm-ns-page-45 .client-view-title {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-45 .f-16 {
+  font-size: 16px;
+}
+
+.vtm-ns-page-45 .view-all {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-45 .view-all a,
+.vtm-ns-page-45 .view-all a:link,
+.vtm-ns-page-45 .view-all a:visited,
+.vtm-ns-page-45 .view-all a:hover {
+  color: inherit;
+}
+
+/*******************************************************************************
+ END Page#45 receive fund from warranty refund
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#46 advertising channel list
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-46 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-46 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-46 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-46 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-46 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-46 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-46 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-46 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-46 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-46 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-46 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-46 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-46 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-46 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-46 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-46 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-46 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-46 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#46 advertising channel list
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#47 add client appointment
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-47 .row {
+  margin-bottom: 14px;
+}
+
+.vtm-ns-page-47 .hvac-card {
+  border: none;
+  box-shadow: none;
+}
+
+.vtm-ns-page-47 .hvac-card .equipment-card {
+  background-color: white;
+  padding: 10px;
+}
+
+.vtm-ns-page-47 .hvac-card .equipment-card div {
+  margin-bottom: 2px;
+}
+
+.vtm-ns-page-47 .hvac-card .equipment-card p {
+  height: 30px;
+}
+
+.vtm-ns-page-47 .hvac-card .equipment-card h5 {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.vtm-ns-page-47 .hvac-card .equipment-card .input-group-addon {
+  vertical-align: middle;
+}
+
+.vtm-ns-page-47 .payment-method a {
+  background: none;
+  margin-top: 20px;
+}
+
+.vtm-ns-page-47 .f-20 {
+  font-size: 20px;
+}
+
+/*******************************************************************************
+ END Page#47 add client appointment
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#49 payment types
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-49 .list-group button {
+  margin-right: 10px;
+}
+
+/*******************************************************************************
+ END Page#49 payment types
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#50 cities
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-50 .list-group button {
+  margin-right: 10px;
+}
+
+/*******************************************************************************
+ END Page#50 cities
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#51 expense types
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-51 .list-group button {
+  margin-right: 10px;
+}
+
+/*******************************************************************************
+ END Page#51 expense types
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#52 items
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-52 .list-group button {
+  margin-right: 10px;
+}
+
+/*******************************************************************************
+ END Page#52 items
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#58 accounting pay advertising
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-58 .title-icon {
+  font-size: 25px;
+  position: absolute;
+}
+
+.vtm-ns-page-58 .title-address {
+  padding-left: 34px;
+}
+
+@media (max-width: 767px) {
+  .vtm-ns-page-58 #profile-main .pm-overview {
+    width: 100%;
+    background: #efefef;
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+.vtm-ns-page-58 .client-view-title {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-58 .f-16 {
+  font-size: 16px;
+}
+
+.vtm-ns-page-58 .view-all {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-58 .view-all a,
+.vtm-ns-page-58 .view-all a:link,
+.vtm-ns-page-58 .view-all a:visited,
+.vtm-ns-page-58 .view-all a:hover {
+  color: inherit;
+}
+
+/*******************************************************************************
+ END Page#58 accounting pay advertising
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#59 view client new
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-59 .title-icon {
+  font-size: 25px;
+  position: absolute;
+}
+
+.vtm-ns-page-59 .title-address {
+  padding-left: 34px;
+}
+
+@media (max-width: 767px) {
+  .vtm-ns-page-59 #profile-main .pm-overview {
+    width: 100%;
+    background: #efefef;
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+.vtm-ns-page-59 .client-view-title {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.vtm-ns-page-59 .f-16 {
+  font-size: 16px;
+}
+
+.vtm-ns-page-59 .misc-buttons {
+  margin-top: 30px;
+}
+
+.vtm-ns-page-59 .misc-buttons button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  width: 200px;
+  text-align: left;
+}
+
+.vtm-ns-page-59 .hvac-card {
+  border: none;
+  box-shadow: none;
+}
+
+.vtm-ns-page-59 .hvac-card .equipment-card {
+  background-color: white;
+  padding: 10px;
+}
+
+.vtm-ns-page-59 .hvac-card .equipment-card div {
+  margin-bottom: 2px;
+}
+
+.vtm-ns-page-59 .hvac-card .equipment-card p {
+  height: 30px;
+}
+
+.vtm-ns-page-59 .hvac-card .equipment-card h5 {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.vtm-ns-page-59 .hvac-card .equipment-card .input-group-addon {
+  vertical-align: middle;
+}
+
+.vtm-ns-page-59 .hvac-card .equipment-card small {
+  font-size: 9px;
+}
+
+.vtm-ns-page-59 .payment-method a {
+  background: none;
+  margin-top: 20px;
+}
+
+.vtm-ns-page-59 .f-20 {
+  font-size: 20px;
+}
+
+.vtm-ns-page-59 table.house-table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.vtm-ns-page-59 table.house-table tr {
+  height: 40px;
+}
+
+.vtm-ns-page-59 table.house-table td {
+  width: 40px;
+  border: 1px solid #eee;
+}
+
+.vtm-ns-page-59 .inline {
+  display: inline-block;
+}
+
+.vtm-ns-page-59 .w-20 {
+  width: 20%;
+}
+
+.vtm-ns-page-59 .middle {
+  vertical-align: middle;
+}
+
+/*******************************************************************************
+ END Page#59 view client new
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#60 responsive email template
+*******************************************************************************/
+
+/**/
+
+/* ------------------------------------- 
+		GLOBAL 
+------------------------------------- */
+
+.vtm-ns-page-60 * {
+  margin: 0;
+  padding: 0;
+}
+
+.vtm-ns-page-60 * {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.vtm-ns-page-60 img {
+  max-width: 100%;
+}
+
+.vtm-ns-page-60 .collapse {
+  margin: 0;
+  padding: 0;
+}
+
+body.vtm-ns-page-60 {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  width: 100%!important;
+  height: 100%;
+}
+
+/* ------------------------------------- 
+		ELEMENTS 
+------------------------------------- */
+
+.vtm-ns-page-60 a {
+  color: #2BA6CB;
+}
+
+.vtm-ns-page-60 .btn {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #666;
+  padding: 10px 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.vtm-ns-page-60 p.callout {
+  padding: 15px;
+  background-color: #ECF8FF;
+  margin-bottom: 15px;
+}
+
+.vtm-ns-page-60 .callout a {
+  font-weight: bold;
+  color: #2BA6CB;
+}
+
+.vtm-ns-page-60 table.social {
+  /* 	padding:15px; */
+  background-color: #ebebeb;
+}
+
+.vtm-ns-page-60 .social .soc-btn {
+  padding: 3px 7px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+.vtm-ns-page-60 a.fb {
+  background-color: #3B5998!important;
+}
+
+.vtm-ns-page-60 a.tw {
+  background-color: #1daced!important;
+}
+
+.vtm-ns-page-60 a.gp {
+  background-color: #DB4A39!important;
+}
+
+.vtm-ns-page-60 a.ms {
+  background-color: #000!important;
+}
+
+.vtm-ns-page-60 .sidebar .soc-btn {
+  display: block;
+  width: 100%;
+}
+
+/* ------------------------------------- 
+		HEADER 
+------------------------------------- */
+
+.vtm-ns-page-60 table.head-wrap {
+  width: 100%;
+}
+
+.vtm-ns-page-60 .header.container table td.logo {
+  padding: 15px;
+}
+
+.vtm-ns-page-60 .header.container table td.label {
+  padding: 15px;
+  padding-left: 0px;
+}
+
+/* ------------------------------------- 
+		BODY 
+------------------------------------- */
+
+.vtm-ns-page-60 table.body-wrap {
+  width: 100%;
+}
+
+/* ------------------------------------- 
+		FOOTER 
+------------------------------------- */
+
+.vtm-ns-page-60 table.footer-wrap {
+  width: 100%;
+  clear: both!important;
+}
+
+.vtm-ns-page-60 .footer-wrap .container td.content p {
+  border-top: 1px solid #d7d7d7;
+  padding-top: 15px;
+}
+
+.vtm-ns-page-60 .footer-wrap .container td.content p {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/* ------------------------------------- 
+		TYPOGRAPHY 
+------------------------------------- */
+
+.vtm-ns-page-60 h1,
+.vtm-ns-page-60 h2,
+.vtm-ns-page-60 h3,
+.vtm-ns-page-60 h4,
+.vtm-ns-page-60 h5,
+.vtm-ns-page-60 h6 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.vtm-ns-page-60 h1 small,
+.vtm-ns-page-60 h2 small,
+.vtm-ns-page-60 h3 small,
+.vtm-ns-page-60 h4 small,
+.vtm-ns-page-60 h5 small,
+.vtm-ns-page-60 h6 small {
+  font-size: 60%;
+  color: #6f6f6f;
+  line-height: 0;
+  text-transform: none;
+}
+
+.vtm-ns-page-60 h1 {
+  font-weight: 200;
+  font-size: 44px;
+}
+
+.vtm-ns-page-60 h2 {
+  font-weight: 200;
+  font-size: 37px;
+}
+
+.vtm-ns-page-60 h3 {
+  font-weight: 500;
+  font-size: 27px;
+}
+
+.vtm-ns-page-60 h4 {
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.vtm-ns-page-60 h5 {
+  font-weight: 900;
+  font-size: 17px;
+}
+
+.vtm-ns-page-60 h6 {
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.vtm-ns-page-60 .collapse {
+  margin: 0!important;
+}
+
+.vtm-ns-page-60 p,
+.vtm-ns-page-60 ul {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.vtm-ns-page-60 p.lead {
+  font-size: 17px;
+}
+
+.vtm-ns-page-60 p.last {
+  margin-bottom: 0px;
+}
+
+.vtm-ns-page-60 ul li {
+  margin-left: 5px;
+  list-style-position: inside;
+}
+
+/* ------------------------------------- 
+		SIDEBAR 
+------------------------------------- */
+
+.vtm-ns-page-60 ul.sidebar {
+  background: #ebebeb;
+  display: block;
+  list-style-type: none;
+}
+
+.vtm-ns-page-60 ul.sidebar li {
+  display: block;
+  margin: 0;
+}
+
+.vtm-ns-page-60 ul.sidebar li a {
+  text-decoration: none;
+  color: #666;
+  padding: 10px 16px;
+  /* 	font-weight:bold; */
+  margin-right: 10px;
+  /* 	text-align:center; */
+  cursor: pointer;
+  border-bottom: 1px solid #777777;
+  border-top: 1px solid #FFFFFF;
+  display: block;
+  margin: 0;
+}
+
+.vtm-ns-page-60 ul.sidebar li a.last {
+  border-bottom-width: 0px;
+}
+
+.vtm-ns-page-60 ul.sidebar li a h1,
+.vtm-ns-page-60 ul.sidebar li a h2,
+.vtm-ns-page-60 ul.sidebar li a h3,
+.vtm-ns-page-60 ul.sidebar li a h4,
+.vtm-ns-page-60 ul.sidebar li a h5,
+.vtm-ns-page-60 ul.sidebar li a h6,
+.vtm-ns-page-60 ul.sidebar li a p {
+  margin-bottom: 0!important;
+}
+
+/* --------------------------------------------------- 
+		RESPONSIVENESS
+		Nuke it from orbit. It's the only way to be sure. 
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+
+.vtm-ns-page-60 .container {
+  display: block!important;
+  max-width: 600px!important;
+  margin: 0 auto!important;
+  /* makes it centered */
+  clear: both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+
+.vtm-ns-page-60 .content {
+  padding: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+
+.vtm-ns-page-60 .content table {
+  width: 100%;
+}
+
+/* Odds and ends */
+
+.vtm-ns-page-60 .column {
+  width: 300px;
+  float: left;
+}
+
+.vtm-ns-page-60 .column tr td {
+  padding: 15px;
+}
+
+.vtm-ns-page-60 .column-wrap {
+  padding: 0!important;
+  margin: 0 auto;
+  max-width: 600px!important;
+}
+
+.vtm-ns-page-60 .column table {
+  width: 100%;
+}
+
+.vtm-ns-page-60 .social .column {
+  width: 280px;
+  min-width: 279px;
+  float: left;
+}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+
+.vtm-ns-page-60 .clear {
+  display: block;
+  clear: both;
+}
+
+/* ------------------------------------------- 
+		PHONE
+		For clients that support media queries.
+		Nothing fancy. 
+-------------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+  .vtm-ns-page-60 a[class="btn"] {
+    display: block!important;
+    margin-bottom: 10px!important;
+    background-image: none!important;
+    margin-right: 0!important;
+  }
+
+  .vtm-ns-page-60 div[class="column"] {
+    width: auto!important;
+    float: none!important;
+  }
+
+  .vtm-ns-page-60 table.social div[class="column"] {
+    width: auto!important;
+  }
+}
+
+/*******************************************************************************
+ END Page#60 responsive email template
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#61 responsive email template
+*******************************************************************************/
+
+/**/
+
+/* Basics */
+
+body.vtm-ns-page-61 {
+  Margin: 0;
+  padding: 0;
+  min-width: 100%;
+  background-color: #ffffff;
+}
+
+.vtm-ns-page-61 table {
+  border-spacing: 0;
+  font-family: sans-serif;
+  color: #333333;
+}
+
+.vtm-ns-page-61 td {
+  padding: 0;
+}
+
+.vtm-ns-page-61 img {
+  border: 0;
+}
+
+.vtm-ns-page-61 .wrapper {
+  width: 100%;
+  table-layout: fixed;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.vtm-ns-page-61 .webkit {
+  max-width: 600px;
+}
+
+.vtm-ns-page-61 .outer {
+  Margin: 0 auto;
+  width: 96%;
+  max-width: 600px;
+}
+
+.vtm-ns-page-61 .full-width-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.vtm-ns-page-61 .inner {
+  padding: 10px;
+}
+
+.vtm-ns-page-61 p {
+  Margin: 0;
+}
+
+.vtm-ns-page-61 li {
+  font-size: 14px;
+}
+
+.vtm-ns-page-61 a {
+  color: #ee6a56;
+  text-decoration: underline;
+}
+
+.vtm-ns-page-61 .h1 {
+  font-size: 21px;
+  font-weight: bold;
+  Margin-bottom: 18px;
+}
+
+.vtm-ns-page-61 .h2 {
+  font-size: 18px;
+  font-weight: normal;
+  Margin-bottom: 12px;
+}
+
+/* One column layout */
+
+.vtm-ns-page-61 .one-column .contents {
+  text-align: left;
+}
+
+.vtm-ns-page-61 .one-column p {
+  font-size: 14px;
+  Margin-bottom: 10px;
+}
+
+/*Two column layout*/
+
+.vtm-ns-page-61 .two-column {
+  text-align: center;
+  font-size: 0;
+}
+
+.vtm-ns-page-61 .two-column .column {
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.vtm-ns-page-61 .contents {
+  width: 100%;
+}
+
+.vtm-ns-page-61 .two-column .contents {
+  font-size: 14px;
+  text-align: left;
+}
+
+.vtm-ns-page-61 .two-column img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+}
+
+.vtm-ns-page-61 .two-column .text {
+  padding-top: 10px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 400px) {
+  .vtm-ns-page-61 .two-column .column,
+  .vtm-ns-page-61 .three-column .column {
+    max-width: 100% !important;
+  }
+
+  .vtm-ns-page-61 .two-column img {
+    max-width: 100% !important;
+  }
+
+  .vtm-ns-page-61 .three-column img {
+    max-width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .vtm-ns-page-61 .three-column .column {
+    max-width: 33% !important;
+  }
+
+  .vtm-ns-page-61 .two-column .column {
+    max-width: 50% !important;
+  }
+}
+
+/*******************************************************************************
+ END Page#61 responsive email template
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#62 tasks
+*******************************************************************************/
+
+/**/
+
+.vtm-ns-page-62 .task-due {
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+
+.vtm-ns-page-62 .task-level {
+  margin-right: 4px;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.vtm-ns-page-62 .notes {
+  overflow: hidden;
+}
+
+.vtm-ns-page-62 .notes .listview {
+  width: 30%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-62 .notes .listview {
+    width: 100%;
+  }
+}
+
+.vtm-ns-page-62 .notes .card {
+  width: 70%;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .vtm-ns-page-62 .notes .card {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-62 .selected {
+    background-color: #f5f5f5;
+  }
+}
+
+.vtm-ns-page-62 .icon {
+  margin-right: 6px;
+  font-size: 20px;
+  margin: 3px 13px 0 0;
+}
+
+@media (min-width: 451px) {
+  .vtm-ns-page-62 .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.vtm-ns-page-62 .appointment-head {
+  color: #4C4C4C;
+}
+
+.vtm-ns-page-62 .lv-title {
+  text-transform: capitalize;
+}
+
+.vtm-ns-page-62 .icon-notes-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-62 .icon-notes-delete {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-size: 20px;
+  color: #828282;
+}
+
+.vtm-ns-page-62 .business-report-card h2 {
+  text-align: center;
+  padding: 15px 10px 13px;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 500;
+  color: #4C4C4C;
+  font-size: 13px;
+}
+
+.vtm-ns-page-62 .form-group {
+  display: inline-block;
+}
+
+.vtm-ns-page-62 .m-t-35 {
+  margin-top: 35px;
+}
+
+.vtm-ns-page-62 .m-l-75 {
+  margin-left: 65px;
+}
+
+/*******************************************************************************
+ END Page#62 tasks
+*******************************************************************************/
+
+
+
+/*******************************************************************************
+ BEGIN Page#63 responsive email template
+*******************************************************************************/
+
+/**/
+
+/* Basics */
+
+body.vtm-ns-page-63 {
+  Margin: 0;
+  padding: 0;
+  min-width: 100%;
+  background-color: #ffffff;
+}
+
+.vtm-ns-page-63 table {
+  border-spacing: 0;
+  font-family: sans-serif;
+  color: #333333;
+}
+
+.vtm-ns-page-63 td {
+  padding: 0;
+}
+
+.vtm-ns-page-63 img {
+  border: 0;
+}
+
+.vtm-ns-page-63 .wrapper {
+  width: 100%;
+  table-layout: fixed;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.vtm-ns-page-63 .webkit {
+  max-width: 600px;
+}
+
+.vtm-ns-page-63 .outer {
+  Margin: 0 auto;
+  width: 96%;
+  max-width: 600px;
+}
+
+.vtm-ns-page-63 .full-width-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.vtm-ns-page-63 .inner {
+  padding: 10px;
+}
+
+.vtm-ns-page-63 p {
+  Margin: 0;
+}
+
+.vtm-ns-page-63 li {
+  font-size: 14px;
+}
+
+.vtm-ns-page-63 a {
+  color: #ee6a56;
+  text-decoration: underline;
+}
+
+/* One column layout */
+
+.vtm-ns-page-63 .one-column .contents {
+  text-align: left;
+}
+
+.vtm-ns-page-63 .one-column p {
+  font-size: 14px;
+  Margin-bottom: 10px;
+}
+
+/*Two column layout*/
+
+.vtm-ns-page-63 .two-column {
+  text-align: center;
+  font-size: 0;
+}
+
+.vtm-ns-page-63 .two-column .column {
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.vtm-ns-page-63 .contents {
+  width: 100%;
+}
+
+.vtm-ns-page-63 .two-column .contents {
+  font-size: 14px;
+  text-align: left;
+}
+
+.vtm-ns-page-63 .two-column img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+}
+
+.vtm-ns-page-63 .two-column .text {
+  padding-top: 10px;
+}
+
+.vtm-ns-page-63 .h1 {
+  font-size: 21px;
+  font-weight: bold;
+  Margin-bottom: 18px;
+}
+
+.vtm-ns-page-63 .h2 {
+  font-size: 18px;
+  font-weight: normal;
+  Margin-bottom: 12px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 400px) {
+  .vtm-ns-page-63 .two-column .column,
+  .vtm-ns-page-63 .three-column .column {
+    max-width: 100% !important;
+  }
+
+  .vtm-ns-page-63 .two-column img {
+    max-width: 100% !important;
+  }
+
+  .vtm-ns-page-63 .three-column img {
+    max-width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .vtm-ns-page-63 .three-column .column {
+    max-width: 33% !important;
+  }
+
+  .vtm-ns-page-63 .two-column .column {
+    max-width: 50% !important;
+  }
+}
+
+/*******************************************************************************
+ END Page#63 responsive email template
+*******************************************************************************/
+
+
+
+
+
+
+/*******************************************************************************
+ BEGIN Tile#4 tile-20150922173310
+*******************************************************************************/
+
+/**/
+
+.tile-4 p {
+  color: red;
+}
+.tile-4 {  }
+
+/*******************************************************************************
+ END Tile#4 tile-20150922173310
+*******************************************************************************/

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ventmere B2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="asset://bootstrap-readable.min.css" media="screen">
+  </head>
+  <body>
+		<div class="container">
+      <div class="welcome">
+        <div class="page-header">
+          <h1 class="b2-xl">B2</h1>
+<!--           <p class="lead">It <span class="should">should</span> just work.</p> -->
+        </div>
+        <a href="/us_en" class="btn btn-primary btn-block">Documentation</a>
+        <a href="/zh_cn" class="btn btn-primary btn-block">文档</a>
+      </div>
+    </div>
+	</body>
+</html>

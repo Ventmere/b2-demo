@@ -1,0 +1,21 @@
+{{<layout}}
+	{{$content}}
+    {{#topic}}
+      <h1>{{title}}</h1>
+      
+      <div class="topic-content">
+				{{content | markdown}}        
+			</div>
+
+			<div class="footer">
+	    	<small class="text-muted">Updated {{updated_at | relativeTime}}.</small>    
+			</div>
+    {{/topic}}
+
+    {{^topic}}
+      <h1>
+        Error 404 Page Not Found
+      </h1>
+    {{/topic}}
+	{{/content}}
+{{/layout}}

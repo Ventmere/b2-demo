@@ -1,0 +1,11 @@
+{
+  "default_params": {},
+  "default_query": {},
+  "default_path": "/ajax_xxx",
+  "description": "",
+  "exported": true,
+  "methods": [
+    "GET"
+  ],
+  "middleware": []
+}

@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Constant Home Comfort</title>
+    <link rel="license" href="http://www.opensource.org/licenses/mit-license/">
+    <link rel="stylesheet" href="/css/bundle.css" />
+    <style>
+      body{font-family:  Times, "Times New Roman", Georgia, Serif;}
+    </style>
+    </head>
+    <body class="vtm-ns-layout-4 vtm-ns-page-39"  style="overflow:auto;">
+        <header>
+            <h1>Service Packing & Completion Slip</h1>
+            <span><img id="logo" style="width:100px;" src="/images/logo.png"></span>
+            <address>
+           <p>50 Mural St Unit 11<br>
+
+Richmond Hill, ON L4B1E4</p>
+
+<p>Tel: (905) 597 5593</p>
+
+<p>Fax: (905) 597 5580 </p>
+
+<p>Toll Free: 1-888-829-1875</p>
+
+                <p>Email: info@constanthomecomfort.com</p>
+            </address>
+            
+            <table class="meta">
+                <tr>
+                    <th><span>Technician</span></th>
+                    <td><span>{{Appointment.Installer.FullName}}</span></td>
+                </tr>
+                <tr>
+                    <th><span>Date / Time</span></th>
+                    <td><span>{{Appointment.Date}}</span></td>
+                </tr>
+                <tr>
+                    <th><span>Completed</span></th>
+                    <td class="sign">SIGN HERE</td>
+                </tr>
+            </table>
+
+        </header>
+        
+        <article>
+
+            <div class="float-card w-70">
+                <address>
+                    <p>{{Order.Client.FirstName}} {{Order.Client.LastName}}</p>
+                    <p>{{Order.Client.StreetAddress}}</p>
+                    <p>{{Order.Client.Location.Name}} {{Order.Client.PostalCode}}</p>
+                    <p>{{Order.Client.Phone}} {{#Order.Client.AlternativePhone}}/ {{.}}{{/Order.Client.AlternativePhone}}</p>
+                </address>
+                <div class="float-div f-12"><form>
+                    <p><input type="checkbox"> Installation</p>
+                    <p><input type="checkbox"> Warranty</p>
+                    <p><input type="checkbox"> Contract</p>
+                    <p><input type="checkbox"> Service Contract</p>
+                    <p><input type="checkbox"> Service One-time</p></form>
+                </div>
+           <div style="height:768px; position:relative;">
+                    {{#Order.Memo}}
+                    <div class="equipment-card">
+                    <div class="equipment-head">Description</div>
+                    <div class="w-100" style="padding-left:3px">
+                        {{.}}
+                    </div>
+                </div>
+               {{/Order.Memo}}
+               {{#Appointment.Items}}
+                <div class="equipment-card">
+                    <div class="equipment-head" style="position:relative">{{CategoryName}} <div class="f-12" style="position:absolute; right:15px; top:3px;"><span> x {{Quantity}}{{#Warranty}}Warranty{{/Warranty}}</div></div>
+                    <div class="w-50">{{#ModelNumber}}<span> Model</span>{{.}}{{/ModelNumber}}</div>
+                    {{#Description}}<div class="w-100"><span>Description</span>{{.}}</div>{{/Description}}
+                    {{#SerialNumber}}<div class="w-100"><span> Serial No.</span>{{.}}</div>{{/SerialNumber}}                    
+                </div>
+                {{/Appointment.Items}}
+                {{#Appointment.RebateNote}}<div class="w-100 f-12"><span> Notes: </span>{{.}}</div>{{/Appointment.RebateNote}}
+                <h1 style="padding:100px; text-align:center; color:#ccc; position:relative;">TECHNICIAN NOTES</h1>
+
+                <div style="position:absolute; bottom:0;">
+                <div class="f-12 pull-right p-r-10">Extra Cost ___________________ </div>
+                <div class="equipment-card">
+                    <div class="equipment-head">Terms and Conditions</div>
+                    <div class="w-100 f-10"><span>Terms</span>
+                        I have authority to order work outlined above which has been satisfactorily completed. I agree that Seller retains title to equipment/materials furnished until final payment is made. If payment is not made as agreed, Seller can remove said equipment/materials at Seller&apos;s expense and/or impose a 2% liquidation fee on the entire amount contained in the Seller/Buyer transaction. Any damage resulting from said removal shell not be the responsibility of Seller.
+                        <span>Limited Warranty</span>All material, parts, and equipment are warranted by the manufacturers&apos; or suppliers&apos; written warranty only. All labor performed by the above named company is warranted for 30 days or as otherwise indicated in writing. The above named company makes no other warranties, express or implied, and its agents or technicians are not authorized to make any such warranties on behalf of above named company.<br>
+            <span>Prefered payment type: {{#Order.Client.PreferredPaymentTypes}}{{Name}} {{/Order.Client.PreferredPaymentTypes}}</span>
+                    </div>
+                    <div class="w-70" style="height:50px"><br><span>Customer Signature</span>X______________________</div>
+                    
+                    <div class="w-30" style="height:50px"><br><span>Date</span>_______________</div>
+                </div>
+                </div>
+            </div>
+        </div>
+            <div class="float-card w-30">
+                <div class="equipment-card checklist" style="width:98%; margin-left:2%">
+                    <div class="equipment-head">HVAC Checklist</div>
+                    <ul>
+                        <li>Compressor</li>
+                        <li>Suction _________ PSI</li>
+                        <li>Head _________ PSI</li>
+                        <li>Volts ________ Amps ________</li>
+                        <li>Electrical connections</li>
+                        <li>Contacts tight &amp; clean</li>
+                        <li>Oil level &amp; condition</li>
+                    </ul>
+                    <ul>
+                        <li>Condenser Coil</li>
+                        <li>Clean coil &amp; check pin condition</li>
+                        <li class="inline">ENT _____ &#xB0;F</li>
+                        <li class="inline">LVG _____ &#xB0;F</li>
+                    </ul>
+                    <ul>
+                        <li>Refrigerant</li>
+                        <li class="inline">Leak</li>
+                        <li class="inline">Charge</li>
+                    </ul>
+                    <ul>
+                        <li>Fan and Motor</li>
+                        <li>Volts ________ Amps ________</li>
+                        <li>Electrical Connections</li>
+                        <li>Contacts tight &amp; clean</li>
+                        <li>Fan pulleys (adjust belt)</li>
+                        <li>Check lug bearings &amp; motor</li>
+                    </ul>
+                    <ul>
+                        <li>Evaporator Coil</li>
+                        <li>Clean coil &amp; check Fan</li>
+                        <li class="inline">ENT DB____&#xB0;F</li>
+                        <li class="inline">LVG DB____&#xB0;F</li>
+                        <li class="inline">ENT WB____&#xB0;F</li>
+                        <li class="inline">LVG WB____&#xB0;F</li>
+                    </ul>
+                    <ul>
+                        <li>Condensate Areas</li>
+                        <li>Volts ________ Amps ________</li>
+                        <li>Inspect &amp; clean drain pan</li>
+                        <li>Inspect &amp; clean drain</li>
+                    </ul>
+                    <ul>
+                        <li>Air Filters</li>
+                        <li class="inline">Cleaned</li>
+                        <li class="inline">Replaced</li>
+                        <li>Size ___________</li>
+                    </ul>
+                    <ul>
+                        <li>Heating Assembly</li>
+                        <li>Burner &amp; heat exchanger</li>
+                        <li>Fuel supply &amp; pressure</li>
+                        <li>Pilot assembly</li>
+                        <li>Flame adjustment</li>
+                        <li>Primary relay &amp; flue</li>
+                        <li>Fan &amp; limit switch oper</li>
+                        <li>Blower assembly</li>
+                        <li>RV valve</li>
+                        <li>Strip heat</li>
+                        <li>Defrost cycle</li>
+                    </ul>
+                    <ul>
+                        <li>Electrical Components</li>
+                        <li class="inline">Relays</li>
+                        <li class="inline">Contactors</li>
+                        <li class="inline">Overload</li>
+                        <li class="inline">Press switch</li>
+                    </ul>
+                    <ul>
+                        <li>Thermostat</li>
+                        <li class="inline">O.K.</li>
+                        <li class="inline">Relocate</li>
+                        <li class="inline">Replace</li>
+                    </ul>
+                </div>
+                <table style="width:98%; margin-left:2%">
+                        <th><span>Subtotal</span></th>
+                        <td><span data-prefix="">$</span><span>{{Order.Subtotal}}</span></td>
+                    </tr>
+                    <tr>
+                        <th><span>Sales Tax</span></th>
+                        <td><span data-prefix="">$</span><span>{{Order.Tax}}</span></td>
+                    </tr>
+                    <tr>
+                        <th><span>Total</span></th>
+                        <td><span data-prefix="">$</span><span>{{Total}}</span></td>
+                    </tr>
+                    <tr>
+                        <th><span>Paid</span></th>
+                        <td><span data-prefix="">$</span><span>{{Order.PaymentTotal}}</span></td>
+                    </tr>
+                    <tr>
+                        <th><span>Balance</span></th>
+                        <td><span data-prefix="">$</span><span>{{Balance}}</span></td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+    </body>
+    </html>

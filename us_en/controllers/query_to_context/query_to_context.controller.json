@@ -1,0 +1,13 @@
+{
+  "default_params": {
+    "0": ""
+  },
+  "default_query": {},
+  "default_path": "*",
+  "description": "",
+  "exported": false,
+  "methods": [
+    "GET"
+  ],
+  "middleware": []
+}

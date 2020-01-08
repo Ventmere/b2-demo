@@ -1,0 +1,6 @@
+<div style="padding:5px; background:black; color:white;">
+  {{$white-text}}{{/white-text}}
+</div>
+<div style="padding:5px; background:white; color:black;">
+  {{$black-text}}{{/black-text}}
+</div>

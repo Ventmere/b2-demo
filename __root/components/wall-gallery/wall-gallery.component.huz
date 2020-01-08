@@ -1,0 +1,70 @@
+<div class="v-wall-gallery">
+  <div class="v-wg-row">
+  	<div class="v-wg-col-4">
+      <img src="http://cdn.ventmere.com/b2doc/uploads/2017-05/e_HktexxS1Z.jpg" />
+    </div>
+    <div class="v-wg-col-4">
+      <img src="http://cdn.ventmere.com/b2doc/uploads/2017-05/a_rybKeleHJ-.jpg" />
+    </div>
+    <div class="v-wg-col-4">
+      <img src="http://cdn.ventmere.com/b2doc/uploads/2017-05/b_SkftlxlHyb.jpg" />
+    </div>
+  </div>
+  <div class="v-wg-row">
+    <div class="v-wg-col-4">
+      <img src="http://cdn.ventmere.com/b2doc/uploads/2017-05/d_HkXYgelrkW.jpg" />
+    </div>
+    <div class="v-wg-col-8">
+      <img src="http://cdn.ventmere.com/b2doc/uploads/2017-05/oo_SJtuGeBkZ.jpg" />
+    </div>
+  </div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script>
+  // vWallGallery Plugin
+	(function ($) {
+    var COLUMN_CLASS_NAME = /v-wg-col-(\d+)/
+    $.fn.vWallGallery = function () {
+      $(this).each(function () {
+        var container = $(this)
+        var rows = container.find('.v-wg-row')
+        var rowColumns = []
+        rows.each(function () {
+          var row = $(this)
+          var columns = []
+          rowColumns.push(columns)
+          row.children('div').each(function () {
+            var column = $(this)
+            var className = column.prop('class')
+            var matches = className.match(COLUMN_CLASS_NAME)
+            if (!matches) {
+              throw new Error('Invalid column class name: ' + className)
+            }
+            var columnSize = matches[1]
+            columns.push({
+              elem: column,
+              size: parseInt(columnSize),
+            })
+          })
+        })
+        var row, colElement
+        for (var ri = 0; ri < rowColumns.length; ri++) {
+					row = rowColumns[ri]
+          for (var ci = 0; ci < row.length; ci++) {
+            
+            colElement = row[ci].elem
+          }
+        }
+      })
+    }
+  })(jQuery)
+</script>
+<script>
+	$(function () {
+    $('.v-wall-gallery').vWallGallery()
+  })
+</script>

@@ -1,0 +1,13 @@
+{
+  "default_params": {
+    "handle": ""
+  },
+  "default_query": {},
+  "default_path": "/:handle",
+  "description": "",
+  "exported": false,
+  "methods": [
+    "GET"
+  ],
+  "middleware": []
+}

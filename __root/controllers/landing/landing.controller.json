@@ -1,0 +1,10 @@
+{
+  "default_params": {},
+  "default_query": {},
+  "default_path": "*",
+  "description": "",
+  "methods": [
+    "GET"
+  ],
+  "middleware": []
+}

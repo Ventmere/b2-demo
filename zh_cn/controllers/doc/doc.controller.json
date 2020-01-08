@@ -1,0 +1,13 @@
+{
+  "default_params": {
+    "0": "",
+    "handle": "asset"
+  },
+  "default_query": {},
+  "default_path": "/:handle",
+  "description": "",
+  "methods": [
+    "GET"
+  ],
+  "middleware": []
+}

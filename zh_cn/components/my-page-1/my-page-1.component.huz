@@ -1,0 +1,17 @@
+{{<my-web-app}}
+	{{$title}}
+  	page 1
+  {{/title}}
+  
+  {{$content}}
+  	这是我的第一个页面
+    
+    {{>part-1}}
+    {{>part-2}}
+    {{<part-3}}
+    	{{$white-text}}这里是黑底白字{{/white-text}}
+    	{{$black-text}}这里是白底黑字{{/black-text}}      
+    {{/part-3}}
+    
+  {{/content}}
+{{/my-web-app}}

@@ -1,0 +1,19 @@
+{{<layout}}
+	{{$content}}
+		<h2>Contents</h2>
+		<ul class="nav nav-pills nav-stacked">
+			{{#categories}}
+      {{#topics.length}}
+      <li>
+        <a href="#">{{title}}</a>
+        <ul>
+          {{#topics}}
+          <li><a href="page://topic/{{handle}}">{{title}}</a></li>
+          {{/topics}}
+        </ul>
+      </li>
+      {{/topics.length}}
+      {{/categories}}
+		</ul>
+	{{/content}}
+{{/layout}}

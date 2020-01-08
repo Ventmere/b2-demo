@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ventmere B2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="asset://bootstrap-journal.min.css" media="screen">
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+      <h1 class="page-header text-warning">
+        Translator is obsoleted
+      </h1>
+      <p>
+        We developed a better way to translate website.
+      </p>
+      <p>
+        For more information, please contact us at info@ventmere.com.
+      </p>
+      <p>
+        <a class="btn btn-primary" href="{{link}}">Go to your website now</a>
+      </p>
+    </div>
+    
+    <script src="asset://jquery-2.2.0.min.js"></script>
+    <script src="asset://bootstrap.min.js"></script>
+	</body>
+</html>
